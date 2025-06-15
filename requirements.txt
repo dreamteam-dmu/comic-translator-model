@@ -1,0 +1,12 @@
+fastapi~=0.115.12
+pillow~=11.2.1
+python-dotenv~=1.1.0
+opencv-python~=4.6.0.66
+numpy~=1.26.4
+openai~=1.86.0
+paddleocr~=2.10.0
+scikit-learn~=1.7.0
+uvicorn[standard]
+paddlepaddle~=3.0.0
+setuptools~=80.9.0
+python-multipart~=0.0.20
