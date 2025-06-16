@@ -7,7 +7,7 @@ import numpy as np
 from sklearn.cluster import DBSCAN
 
 def process_images_paddleocr(image_dir, output_image_dir=None, json_output_path=None):
-    ocr = PaddleOCR(use_angle_cls=True, lang='en')
+    ocr = PaddleOCR(use_angle_cls=True, lang='en', use_gpu=True)
     results_data = {}
 
     if output_image_dir and not os.path.exists(output_image_dir):
